@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		507DB4E32592D04C00C855DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DB4E22592D04C00C855DB /* AppDelegate.swift */; };
+		507DB4E52592D04C00C855DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DB4E42592D04C00C855DB /* SceneDelegate.swift */; };
+		507DB4E72592D04C00C855DB /* duoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DB4E62592D04C00C855DB /* duoView.swift */; };
+		507DB4E92592D05300C855DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 507DB4E82592D05300C855DB /* Assets.xcassets */; };
+		507DB4EC2592D05300C855DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 507DB4EB2592D05300C855DB /* Preview Assets.xcassets */; };
+		507DB4EF2592D05300C855DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 507DB4ED2592D05300C855DB /* LaunchScreen.storyboard */; };
+		507DB4F92592D28500C855DB /* homecard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DB4F82592D28500C855DB /* homecard.swift */; };
+		507DB4FC2592D2C100C855DB /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DB4FB2592D2C100C855DB /* homeView.swift */; };
+		507DB4FF2592D2EC00C855DB /* soloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507DB4FE2592D2EC00C855DB /* soloView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		507DB4DF2592D04C00C855DB /* Color Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		507DB4E22592D04C00C855DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		507DB4E42592D04C00C855DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		507DB4E62592D04C00C855DB /* duoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = duoView.swift; sourceTree = "<group>"; };
+		507DB4E82592D05300C855DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		507DB4EB2592D05300C855DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		507DB4EE2592D05300C855DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		507DB4F02592D05300C855DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		507DB4F82592D28500C855DB /* homecard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homecard.swift; sourceTree = "<group>"; };
+		507DB4FB2592D2C100C855DB /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		507DB4FE2592D2EC00C855DB /* soloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soloView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		507DB4DC2592D04C00C855DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		507DB4D62592D04C00C855DB = {
+			isa = PBXGroup;
+			children = (
+				507DB4E12592D04C00C855DB /* Color Finder */,
+				507DB4E02592D04C00C855DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		507DB4E02592D04C00C855DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				507DB4DF2592D04C00C855DB /* Color Finder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		507DB4E12592D04C00C855DB /* Color Finder */ = {
+			isa = PBXGroup;
+			children = (
+				507DB4E22592D04C00C855DB /* AppDelegate.swift */,
+				507DB4E42592D04C00C855DB /* SceneDelegate.swift */,
+				507DB4E62592D04C00C855DB /* duoView.swift */,
+				507DB4F82592D28500C855DB /* homecard.swift */,
+				507DB4FB2592D2C100C855DB /* homeView.swift */,
+				507DB4FE2592D2EC00C855DB /* soloView.swift */,
+				507DB4E82592D05300C855DB /* Assets.xcassets */,
+				507DB4ED2592D05300C855DB /* LaunchScreen.storyboard */,
+				507DB4F02592D05300C855DB /* Info.plist */,
+				507DB4EA2592D05300C855DB /* Preview Content */,
+			);
+			path = "Color Finder";
+			sourceTree = "<group>";
+		};
+		507DB4EA2592D05300C855DB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				507DB4EB2592D05300C855DB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		507DB4DE2592D04C00C855DB /* Color Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 507DB4F32592D05300C855DB /* Build configuration list for PBXNativeTarget "Color Finder" */;
+			buildPhases = (
+				507DB4DB2592D04C00C855DB /* Sources */,
+				507DB4DC2592D04C00C855DB /* Frameworks */,
+				507DB4DD2592D04C00C855DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Color Finder";
+			productName = "Color Finder";
+			productReference = 507DB4DF2592D04C00C855DB /* Color Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		507DB4D72592D04C00C855DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					507DB4DE2592D04C00C855DB = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 507DB4DA2592D04C00C855DB /* Build configuration list for PBXProject "Color Finder" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 507DB4D62592D04C00C855DB;
+			productRefGroup = 507DB4E02592D04C00C855DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				507DB4DE2592D04C00C855DB /* Color Finder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		507DB4DD2592D04C00C855DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507DB4EF2592D05300C855DB /* LaunchScreen.storyboard in Resources */,
+				507DB4EC2592D05300C855DB /* Preview Assets.xcassets in Resources */,
+				507DB4E92592D05300C855DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		507DB4DB2592D04C00C855DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507DB4F92592D28500C855DB /* homecard.swift in Sources */,
+				507DB4E32592D04C00C855DB /* AppDelegate.swift in Sources */,
+				507DB4E52592D04C00C855DB /* SceneDelegate.swift in Sources */,
+				507DB4FF2592D2EC00C855DB /* soloView.swift in Sources */,
+				507DB4FC2592D2C100C855DB /* homeView.swift in Sources */,
+				507DB4E72592D04C00C855DB /* duoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		507DB4ED2592D05300C855DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				507DB4EE2592D05300C855DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		507DB4F12592D05300C855DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		507DB4F22592D05300C855DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		507DB4F42592D05300C855DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Color Finder/Preview Content\"";
+				DEVELOPMENT_TEAM = 3SV5BSZRYS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Color Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SegunAwe.Color-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		507DB4F52592D05300C855DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Color Finder/Preview Content\"";
+				DEVELOPMENT_TEAM = 3SV5BSZRYS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Color Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SegunAwe.Color-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		507DB4DA2592D04C00C855DB /* Build configuration list for PBXProject "Color Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				507DB4F12592D05300C855DB /* Debug */,
+				507DB4F22592D05300C855DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		507DB4F32592D05300C855DB /* Build configuration list for PBXNativeTarget "Color Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				507DB4F42592D05300C855DB /* Debug */,
+				507DB4F52592D05300C855DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 507DB4D72592D04C00C855DB /* Project object */;
+}
